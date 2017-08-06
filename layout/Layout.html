@@ -1,0 +1,41 @@
+<div
+  ref:root
+  class="Layout {{class__Layout}}"
+>
+  {{{before_header || ''}}}
+  <header ref:masthead id="masthead" class="masthead">
+    <Logo ctx="{{ctx}}" class__root="expanded in-layout">
+      {{#if logo_prefix}}
+      {{{logo_prefix}}}
+      {{/if}}
+    </Logo>
+  </header>
+  {{{header_bottom || ''}}}
+  {{{before_main || ''}}}
+  {{yield}}
+  <footer>
+  </footer>
+</div>
+
+<script type="buble">
+  import {$class} from 'ctx-core/html/lib'
+  import Logo from 'logo/Logo.html'
+  import {log,debug} from 'ctx-core/logger/lib'
+  const location =
+          typeof window == 'object'
+          ? window.location
+          : {}
+      , logPrefix = 'layout/Layout.html'
+  export default {
+    computed: {
+      class__Layout: env_name =>
+        $class({
+        }),
+      env_name: ctx =>
+        ctx.env_name
+    },
+    components: {
+      Logo
+    }
+  }
+</script>

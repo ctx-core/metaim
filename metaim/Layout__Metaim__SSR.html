@@ -1,0 +1,31 @@
+<Layout__SSR
+  ctx="{{ctx}}"
+  meta="{{meta}}"
+  styles="{{styles__Layout__SSR}}"
+  title="{{title}}"
+  scripts="{{scripts__Layout__SSR}}"
+  components__onload="{{components__onload}}"
+>
+  {{yield}}
+</Layout__SSR>
+
+<script type="buble">
+  import {$versioned} from 'ctx-core/html/lib'
+  import {$versioned__js} from 'ctx-core/html/node'
+  import Layout__SSR from 'layout/Layout__SSR.html'
+  export default {
+    computed: {
+      styles__Layout__SSR: (ctx, styles) =>
+        `<link rel="stylesheet" href="${$versioned(ctx, '/dist/metaim.css')}" type="text/css">
+          ${styles || ''}
+        `.trim(),
+      scripts__Layout__SSR: (ctx, scripts) =>
+        `<script src="${$versioned__js('/dist/metaim')}"></${'script'}>
+          ${scripts || ''}
+        `.trim()
+    },
+    components: {
+      Layout__SSR
+    }
+  }
+</script>

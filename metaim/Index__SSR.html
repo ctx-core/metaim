@@ -1,0 +1,41 @@
+<Layout__Metaim__SSR
+  ctx="{{ctx}}"
+  meta="{{meta__root}}"
+  title="{{title__root}}"
+  styles="{{styles__root}}"
+  scripts="{{scripts__root}}"
+  components__onload="{{components__onload}}"
+>
+  <Index ctx="{{ctx}}"></Index>
+</Layout__Metaim__SSR>
+
+<script type="buble">
+  import Layout__Metaim__SSR from 'metaim/Layout__Metaim__SSR.html'
+  import Index from 'metaim/Index.html'
+  export default {
+    data() {
+      return {
+        meta__root:
+          `<meta name="description" content="MetaIM - The Meta Information Manager">`,
+        title__root:
+          `MetaIM - The Meta Information Manager`,
+        styles__root:
+          ``,
+        components__onload:
+          [
+            ['Index', {
+              hydrate: true
+            }]
+          ]
+      }
+    },
+    computed: {
+      scripts__root: ctx =>
+        ``
+    },
+    components: {
+      Layout__Metaim__SSR,
+      Index
+    }
+  }
+</script>

@@ -1,0 +1,14 @@
+<div id="{{id}}" class="Layout__Metaim {{class__root}}">
+  <Layout ctx="{{ctx}}" use__nav_up=1 use__nav_hash="1">
+    {{yield}}
+  </Layout>
+</div>
+
+<script type="buble">
+  import Layout from 'layout/Layout.html'
+  export default {
+    components: {
+      Layout
+    }
+  }
+</script>
