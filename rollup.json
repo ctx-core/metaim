@@ -1,0 +1,8 @@
+{
+  "http": [
+    "metaim/http.rollup.js"
+  ],
+  "rollup": [
+    "metaim/browser.rollup.js"
+  ]
+}
