@@ -1,6 +1,5 @@
 import env from 'metaim/env'
 import route__koa from 'koa-route'
-import {assign} from 'ctx-core/object/lib'
 import {$ctx__html} from 'html/node'
 import Index__SSR from 'metaim/Index__SSR.html'
 import {info,debug,log} from 'ctx-core/logger/lib'

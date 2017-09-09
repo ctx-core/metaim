@@ -1,6 +1,8 @@
 const {$node__rollup__svelte} = require('ctx-core/svelte/rollup')
 module.exports = $node__rollup__svelte({
-  entry: 'metaim/http.js',
-  dest: 'private/dist/metaim.http.js',
+  input: 'metaim/http.js',
+  output: {
+    file: 'private/dist/metaim.http.js'
+  },
   sourceMap: true
 })
