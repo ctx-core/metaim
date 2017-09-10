@@ -38,13 +38,13 @@
     "rollup-plugin-svelte": "^3.1.0",
     "rollup-watch": "^4.3.1",
     "shelljs": "^0.7.8",
-    "svelte": "^1.38.0",
+    "svelte": "^1.39.0",
     "throng": "^4.0.0",
     "yarn": "^1.0.0"
   },
   "devDependencies": {
     "chai": "^4.1.2",
-    "mocha": "^3.5.0",
+    "mocha": "^3.5.2",
     "sinon": "^3.2.1"
   },
   "preferGlobal": true,
