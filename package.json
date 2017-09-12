@@ -40,11 +40,11 @@
     "shelljs": "^0.7.8",
     "svelte": "^1.39.0",
     "throng": "^4.0.0",
-    "yarn": "^1.0.0"
+    "yarn": "^1.0.1"
   },
   "devDependencies": {
     "chai": "^4.1.2",
-    "mocha": "^3.5.2",
+    "mocha": "^3.5.3",
     "sinon": "^3.2.1"
   },
   "preferGlobal": true,
