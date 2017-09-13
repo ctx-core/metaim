@@ -378,6 +378,10 @@ copy-to@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/copy-to/-/copy-to-2.0.1.tgz#2680fbb8068a48d08656b6098092bdafc906f4a5"
 
+core-js@^2.5.1:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.5.1.tgz#ae6874dc66937789b80754ff5428df66819ca50b"
+
 core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
@@ -2026,9 +2030,9 @@ svelte@^1.25.1:
   version "1.27.0"
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-1.27.0.tgz#9c65aaa76e5c3683e3d0b35fabd0aefa9a02874f"
 
-svelte@^1.39.0:
-  version "1.39.0"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-1.39.0.tgz#665e89f3b8f35d0fe9cdd8ef13562c3c39992f1e"
+svelte@^1.39.2:
+  version "1.39.2"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-1.39.2.tgz#2efcc221c3eeb73ecb2b5c89207f7d60869761da"
 
 tar-pack@^3.4.0:
   version "3.4.0"
@@ -2225,6 +2229,6 @@ yallist@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-2.1.2.tgz#1c11f9218f076089a47dd512f93c6699a6a81d52"
 
-yarn@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/yarn/-/yarn-1.0.1.tgz#7bcd50a1ff90e182d18f426cbf64918bf902d2fc"
+yarn@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/yarn/-/yarn-1.0.2.tgz#d1b8f4b6d3b0684e86f63a072ac630995b8b7b0a"

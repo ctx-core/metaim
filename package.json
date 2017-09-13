@@ -7,13 +7,14 @@
   "author": "Brian Takita",
   "license": "Apache-2.0",
   "engines": {
-    "node": "8.4.0"
+    "node": "8.5.0"
   },
   "scripts": {},
   "keywords": [
     "ctx-core"
   ],
   "dependencies": {
+    "core-js": "^2.5.1",
     "dotenv": "^4.0.0",
     "koa": "^2.3.0",
     "koa-bodyparser": "^4.2.0",
@@ -38,9 +39,9 @@
     "rollup-plugin-svelte": "^3.1.0",
     "rollup-watch": "^4.3.1",
     "shelljs": "^0.7.8",
-    "svelte": "^1.39.0",
+    "svelte": "^1.39.2",
     "throng": "^4.0.0",
-    "yarn": "^1.0.1"
+    "yarn": "^1.0.2"
   },
   "devDependencies": {
     "chai": "^4.1.2",
